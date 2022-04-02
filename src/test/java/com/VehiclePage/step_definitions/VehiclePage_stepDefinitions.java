@@ -1,18 +1,14 @@
-package com.cydeo.step_definitions;
+package com.VehiclePage.step_definitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import com.cydeo.pages.BasePage;
-import com.cydeo.pages.LoginPage;
-import com.cydeo.pages.VehiclePage;
-import com.cydeo.utilities.ConfigurationReader;
-import com.cydeo.utilities.Driver;
+import com.VehiclePage.utilities.ConfigurationReader;
+import com.VehiclePage.utilities.Driver;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -42,7 +38,6 @@ public class VehiclePage_stepDefinitions {
     public void userIsOnTheHomepage() {
         String expectedTitle = "Dashboard";
         Assert.assertEquals(Driver.getDriver().getTitle(), expectedTitle);
-        System.out.println(Driver.getDriver().getTitle());
     }
 
 

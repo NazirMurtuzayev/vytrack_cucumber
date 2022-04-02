@@ -1,4 +1,4 @@
-package com.cydeo.step_definitions;
+package com.VehiclePage.step_definitions;
 
 /*
 In the class we will be able to pass pre- & post- conditions to
@@ -9,7 +9,7 @@ In the class we will be able to pass pre- & post- conditions to
 import io.cucumber.java.*;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import com.cydeo.utilities.Driver;
+import com.VehiclePage.utilities.Driver;
 
 public class Hooks {
 
